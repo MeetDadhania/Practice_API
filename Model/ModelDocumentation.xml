@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Model</name>
+    </assembly>
+    <members>
+        <member name="P:Model.DBModels.EmployeeDetail.EmployeeId">
+            <summary>
+            Employee ID
+            </summary>
+        </member>
+        <member name="P:Model.DBModels.EmployeeDetail.Name">
+            <summary>
+            Employee Name
+            </summary>
+        </member>
+        <member name="P:Model.DBModels.EmployeeDetail.Email">
+            <summary>
+            Employee EmailID
+            </summary>
+        </member>
+        <member name="P:Model.DBModels.EmployeeDetail.Age">
+            <summary>
+            Employee Age
+            </summary>
+        </member>
+        <member name="P:Model.DBModels.EmployeeDetail.PhoneNumber">
+            <summary>
+            Employee PhoneNumber
+            </summary>
+        </member>
+        <member name="P:Model.Models.UserLogin.Username">
+            <summary>
+            UserName 
+            </summary>
+        </member>
+        <member name="P:Model.Models.UserLogin.Password">
+            <summary>
+            PassWord
+            </summary>
+        </member>
+        <member name="P:Model.RequestBody.EmployeeRequest.Name">
+            <summary>
+            Employee name
+            </summary>
+        </member>
+        <member name="P:Model.RequestBody.EmployeeRequest.Email">
+            <summary>
+            Employee EmailID
+            </summary>
+        </member>
+        <member name="P:Model.RequestBody.EmployeeRequest.Age">
+            <summary>
+            Employee Age
+            </summary>
+        </member>
+        <member name="P:Model.RequestBody.EmployeeRequest.PhoneNumber">
+            <summary>
+            Employee PhoneNumber
+            </summary>
+        </member>
+        <member name="P:Model.ResponseBody.EmployeeResponse.EmployeeId">
+            <summary>
+            Employee ID
+            </summary>
+        </member>
+        <member name="P:Model.ResponseBody.EmployeeResponse.Name">
+            <summary>
+            Employee Name
+            </summary>
+        </member>
+        <member name="P:Model.ResponseBody.EmployeeResponse.Age">
+            <summary>
+            Employee Age
+            </summary>
+        </member>
+        <member name="P:Model.ResponseBody.EmployeeResponse.PhoneNumber">
+            <summary>
+            Employee PhoneNumber
+            </summary>
+        </member>
+        <member name="P:Model.Students.Id">
+            <summary>
+            Student ID
+            </summary>
+        </member>
+        <member name="P:Model.Students.Name">
+            <summary>
+            Student Name
+            </summary>
+        </member>
+        <member name="P:Model.Students.Age">
+            <summary>
+            Student Age
+            </summary>
+        </member>
+        <member name="P:Model.Students.Email">
+            <summary>
+            Student EmailID
+            </summary>
+        </member>
+        <member name="P:Model.Students.Phone">
+            <summary>
+            Student PhoneNumber
+            </summary>
+        </member>
+    </members>
+</doc>

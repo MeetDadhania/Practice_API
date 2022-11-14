@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Practice_API</name>
+    </assembly>
+    <members>
+        <member name="T:Practice_API.Controllers.EmployeeController">
+            <summary>
+            Employees controller 
+            </summary>
+        </member>
+        <member name="M:Practice_API.Controllers.EmployeeController.GetEmployeesDetails">
+            <summary>
+            get details of all the employees
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Practice_API.Controllers.EmployeeController.UploadEmployeeDetails(Model.RequestBody.EmployeeRequest)">
+            <summary>
+            Upload employee details
+            </summary>
+            <param name="employee">Enter the employee object</param>
+            <returns></returns>
+        </member>
+        <member name="M:Practice_API.Controllers.EmployeeController.UpdateEmployeeDetails(System.Int32,System.String,System.Int64)">
+            <summary>
+            Update employee details
+            </summary>
+            <param name="EmployeeID">enter EmployeeID here</param>
+            <param name="email">enter updated email of employee</param>
+            <param name="phoneNumber">enter updated name of employee</param>
+            <returns></returns>
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException"></exception>
+        </member>
+        <member name="M:Practice_API.Controllers.EmployeeController.DeleteEmployeeDetails(System.Int32)">
+            <summary>
+            Delete the Details of the Employee with EmployeeID
+            </summary>
+            <param name="EmployeeID">Enter EmployeeID here</param>
+            <returns></returns>
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException"></exception>
+        </member>
+        <member name="T:Practice_API.Controllers.LoginController">
+            <summary>
+            Creating controller for generating JWT token
+            </summary>
+        </member>
+        <member name="M:Practice_API.Controllers.LoginController.Login(Model.Models.UserLogin)">
+            <summary>
+            
+            </summary>
+            <param name="userLogin">Enter the UserName and Password</param>
+            <returns></returns>
+        </member>
+        <member name="M:Practice_API.Controllers.StudentsController.GetStudentsDetails">
+            <summary>
+            Get Details of all the students
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Practice_API.Controllers.StudentsController.UploadStudentDetails(Model.Students)">
+            <summary>
+            upload the Details of the student
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Practice_API.Controllers.StudentsController.UpdateStudentDetails(Model.Students)">
+            <summary>
+            Update the Details of the student
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Practice_API.Controllers.StudentsController.DeleteStudentDetails">
+            <summary>
+            Delete the Details of the student
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
